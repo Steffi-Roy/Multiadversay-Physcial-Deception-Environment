@@ -6,6 +6,12 @@ Comparison of **MADDPG** (centralised training, decentralised execution) and **I
 
 Good agents (blue) must cover the target landmark (green) to hide it from adversaries (red). Adversaries observe agent positions but not which landmark is the target, so they must infer it from good agent behaviour. Good agents are rewarded for covering the target and penalised if any adversary gets close.
 
+## Demo
+
+<video src="demo.mp4" controls width="800">
+  Your browser does not support the video tag.
+</video>
+
 ## Setup
 
 ```bash
