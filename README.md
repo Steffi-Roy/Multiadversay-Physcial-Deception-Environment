@@ -46,6 +46,14 @@ python evaluate.py --all-configs
 
 Prints a summary table and saves `results/summary.csv`.
 
+## Configs tested
+
+| Config | Env agents |
+| `2g_1a` | 2 good, 1 adversary |
+| `2g_2a` | 2 good, 2 adversaries |
+| `3g_2a` | 3 good, 2 adversaries |
+
+
 ## Files
 
 | File | Description |
@@ -67,13 +75,6 @@ All rewards are negative distances — always ≤ 0 by construction.
 
 - **Good agents:** `−min_dist(good → target) − min_dist(any_adversary → target)`
 - **Adversary:** `−dist(self → target)`
-
-## Configs tested
-
-| Config | Env agents |
-| `2g_1a` | 2 good, 1 adversary |
-| `2g_2a` | 2 good, 2 adversaries |
-| `3g_2a` | 3 good, 2 adversaries |
 
 ## Key hyperparameters
 
