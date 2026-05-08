@@ -8,7 +8,7 @@ Good agents (blue) must cover the target landmark (green) to hide it from advers
 
 ## Demo
 
-<video src="demo.mp4" controls width="800">
+<video src="Demo.mp4" controls width="800">
   Your browser does not support the video tag.
 </video>
 
