@@ -49,6 +49,7 @@ Prints a summary table and saves `results/summary.csv`.
 ## Configs tested
 
 | Config | Env agents |
+|---|---|
 | `2g_1a` | 2 good, 1 adversary |
 | `2g_2a` | 2 good, 2 adversaries |
 | `3g_2a` | 3 good, 2 adversaries |
@@ -79,6 +80,7 @@ All rewards are negative distances — always ≤ 0 by construction.
 ## Key hyperparameters
 
 | Parameter | Value |
+|---|---|
 | Episodes | 10,000 | //default
 | Batch size | 1,024 |
 | Buffer size | 1,000,000 |
